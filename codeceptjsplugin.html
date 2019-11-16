@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script>
+// Inline JS to compare with chrome coverage output t see how line and branch coverage is stored
+function bob(arg1, arg2) {
+	if(arg1 < 10 && arg2 > 0)
+		return arg1 + arg2;
+	else
+		return 0;
+}
+var a = 5;
+if(a > 3) {var b = "Covered"; } else {var c = "Not covered"; }
+var d = a < 4 ? 6 : 7;
+</script>
+</head>
+<body>
+</body>
+</html>
