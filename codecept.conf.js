@@ -13,7 +13,7 @@ exports.config = {
       enabled: true,
       output: [
         'puppeteer',
-        'istanbul',
+        // 'istanbul',
         'lcov'
       ]
     }
