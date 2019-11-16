@@ -155,7 +155,7 @@ module.exports = function (config) {
             }
             if(config.output.indexOf('lcov') > -1)
             {
-              fs.writeFileSync(path.resolve(coverageDir, 'mylcov.info'), lcovWriter(test, coverage).output());
+              fs.writeFileSync(path.resolve(coverageDir, 'mylcov.info'), lcovWriter(test, coverage, config).output());
             }
           }
         } catch (err) {

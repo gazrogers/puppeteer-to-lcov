@@ -15,6 +15,9 @@ exports.config = {
         'puppeteer',
         // 'istanbul',
         'lcov'
+      ],
+      exclude: [
+        '**/Javascript/**'
       ]
     }
   },
