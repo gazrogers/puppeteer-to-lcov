@@ -9,9 +9,14 @@ function bob(arg1, arg2) {
 	else
 		return 0;
 }
+function bob2(data) {
+	return data(2);
+}
 var a = 5;
 if(a > 3) {var b = "Covered"; } else {var c = "Not covered"; }
 var d = a < 4 ? 6 : 7;
+if(true) {bob2(data => {});}
+if(true) {functionTaker2(function(data1, data2) {});}
 </script>
 </head>
 <body>
