@@ -17,7 +17,7 @@ exports.config = {
         'lcov'
       ],
       exclude: [
-        '**/Javascript/**'
+        '**/jquery*'
       ]
     }
   },
