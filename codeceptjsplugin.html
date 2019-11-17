@@ -15,6 +15,15 @@ function bob2(data) {
 var a = 5;
 if(a > 3) {var b = "Covered"; } else {var c = "Not covered"; }
 var d = a < 4 ? 6 : 7;
+switch(a) {
+	case 1: 1+1;
+	case 2:
+		2+2;
+		break
+	default:
+		3+3;
+		break;
+}
 if(true) {bob2(data => {});}
 if(true) {bob2(function(data1, data2) {});}
 </script>
