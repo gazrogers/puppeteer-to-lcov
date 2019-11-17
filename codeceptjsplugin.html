@@ -13,7 +13,7 @@ function bob2(data) {
 	return data(2);
 }
 var a = 5;
-if(a > 3) {var b = "Covered"; } else {var c = "Not covered"; }
+if(a > 3 || a < 1) {var b = "Covered"; } else {var c = "Not covered"; }
 var d = a < 4 ? 6 : 7;
 switch(a) {
 	case 1: 1+1;
@@ -24,6 +24,7 @@ switch(a) {
 		3+3;
 		break;
 }
+while(a < 5) { a += 1; }
 if(true) {bob2(data => {});}
 if(true) {bob2(function(data1, data2) {});}
 </script>
