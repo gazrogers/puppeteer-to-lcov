@@ -1,0 +1,13 @@
+{
+	"name": "puppeteer-to-lcov",
+	"version": "0.1.0",
+	"description": "Converts puppeteer coverage output to LCOV format",
+	"license": "MIT",
+	"repository": "gazrogers/puppeteer-to-lcov",
+	"main": "index.js",
+	"keywords": [
+		"puppeteer",
+		"lcov",
+		"coverage"
+	]
+}
